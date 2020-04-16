@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="FirstName" value="First"/>
+  <parameter name="LastName" value="Last"/>
+  <test name="Test(failed)">
+    <parameter name="FirstName" value="First"/>
+    <parameter name="LastName" value="Last"/>
+    <classes>
+      <class name="testNG.Parameter_Example">
+        <methods>
+          <include name="Reg" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.Parameter_Example -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
